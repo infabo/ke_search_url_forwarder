@@ -2,7 +2,7 @@
   "name": "newtown/ke-search-url-forwarder",
   "type": "typo3-cms-extension",
   "description": "Makes pretty URLs possible and also allows to create correct pagebrowser links with method = post",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "keywords": [
     "TYPO3",
     "extension",
@@ -20,7 +20,7 @@
     "GPL-3.0"
   ],
   "require": {
-    "typo3/cms-core": ">=6.2.0,<8.0",
+    "typo3/cms-core": "^6.2 || ^7.6 || ^8.0",
     "teaminmedias-pluswerk/ke_search": ">=2.0.1"
   },
   "autoload": {
