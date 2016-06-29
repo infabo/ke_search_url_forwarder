@@ -1,0 +1,25 @@
+keSearchUrlForwarderPage = PAGE
+keSearchUrlForwarderPage {
+	typeNum = 884422
+
+	10 = USER
+	10 {
+		userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+		extensionName = KeSearchUrlForwarder
+		pluginName = Process
+		vendorName = Newtown
+		controller = UrlForwarder
+		action = forward
+
+		switchableControllerActions {
+			UrlForwarder {
+				1 = forward
+			}
+		}
+
+		view < plugin.tx_kesearchurlforwarder.view
+		persistence < plugin.tx_kesearchurlforwarder.persistence
+		settings < plugin.tx_kesearchurlforwarder.settings
+	}
+}
+

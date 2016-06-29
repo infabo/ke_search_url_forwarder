@@ -1,0 +1,31 @@
+{
+  "name": "newtown/ke-search-url-forwarder",
+  "type": "typo3-cms-extension",
+  "description": "Makes pretty URLs possible and also allows to create correct pagebrowser links with method = post",
+  "version": "0.1.1",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "ke_search"
+  ],
+  "homepage": "https://www.newtown.at",
+  "authors": [
+    {
+      "name": "Ingo Fabbri",
+      "role": "Author/Maintainer",
+      "homepage": "https://www.newtown.at"
+    }
+  ],
+  "license": [
+    "GPL-3.0"
+  ],
+  "require": {
+    "typo3/cms-core": ">=6.2.0,<8.0",
+    "teaminmedias-pluswerk/ke_search": ">=2.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Newtown\\KeSearchUrlForwarder\\": "Classes"
+    }
+  }
+}
