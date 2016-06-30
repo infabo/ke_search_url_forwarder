@@ -1,5 +1,5 @@
 {
-  "name": "newtown/ke-search-url-forwarder",
+  "name": "newtown/typo3-kesearch-urlforwarder",
   "type": "typo3-cms-extension",
   "description": "Makes pretty URLs possible and also allows to create correct pagebrowser links with method = post",
   "version": "1.0.0",
@@ -27,5 +27,9 @@
     "psr-4": {
       "Newtown\\KeSearchUrlForwarder\\": "Classes"
     }
+  },
+  "replace": {
+    "ke_search_url_forwarder": "self.version",
+    "newtown/typo3-kesearch-urlforwarder": "self.version"
   }
 }
