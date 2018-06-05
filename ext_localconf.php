@@ -4,7 +4,7 @@ if (!defined('TYPO3_MODE')) {
 }
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-    'Newtown.' . $_EXTKEY,
+    'Infabo.' . $_EXTKEY,
     'Process',
     array(
         'UrlForwarder' => 'forward'
@@ -15,4 +15,4 @@ if (!defined('TYPO3_MODE')) {
     )
 );
 
-$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['ext/realurl/class.tx_realurl_autoconfgen.php']['extensionConfiguration'][$_EXTKEY] = 'EXT:' . $_EXTKEY . '/Classes/Realurl.php:Newtown\\KeSearchUrlForwarder\\Realurl->addAutoConfig';
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['ext/realurl/class.tx_realurl_autoconfgen.php']['extensionConfiguration'][$_EXTKEY] = 'EXT:' . $_EXTKEY . '/Classes/Realurl.php:Infabo\\KeSearchUrlForwarder\\Realurl->addAutoConfig';

@@ -7,7 +7,7 @@ keSearchUrlForwarderPage {
 		userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
 		extensionName = KeSearchUrlForwarder
 		pluginName = Process
-		vendorName = Newtown
+		vendorName = Infabo
 		controller = UrlForwarder
 		action = forward
 

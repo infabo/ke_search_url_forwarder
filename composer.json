@@ -1,19 +1,18 @@
 {
-  "name": "newtown/typo3-kesearch-urlforwarder",
+  "name": "infabo/typo3-kesearch-urlforwarder",
   "type": "typo3-cms-extension",
   "description": "Makes pretty URLs possible and also allows to create correct pagebrowser links with method = post",
-  "version": "1.0.0",
   "keywords": [
     "TYPO3",
     "extension",
     "ke_search"
   ],
-  "homepage": "https://www.newtown.at",
+  "homepage": "https://www.infabo.net",
   "authors": [
     {
       "name": "Ingo Fabbri",
       "role": "Author/Maintainer",
-      "homepage": "https://www.newtown.at"
+      "homepage": "https://www.infabo.net"
     }
   ],
   "license": [
@@ -25,11 +24,11 @@
   },
   "autoload": {
     "psr-4": {
-      "Newtown\\KeSearchUrlForwarder\\": "Classes"
+      "Infabo\\KeSearchUrlForwarder\\": "Classes"
     }
   },
   "replace": {
     "ke_search_url_forwarder": "self.version",
-    "newtown/typo3-kesearch-urlforwarder": "self.version"
+    "infabo/typo3-kesearch-urlforwarder": "self.version"
   }
 }

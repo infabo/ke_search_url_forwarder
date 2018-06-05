@@ -1,6 +1,6 @@
 <?php
 
-namespace Newtown\KeSearchUrlForwarder\Controller;
+namespace Infabo\KeSearchUrlForwarder\Controller;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
@@ -35,5 +35,4 @@ class UrlForwarderController extends ActionController
 
         $this->redirectToUri($uri);
     }
-
 }
