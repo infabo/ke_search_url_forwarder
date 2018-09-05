@@ -21,6 +21,9 @@ class UrlForwarderController extends ActionController
         $forwardableParameters = array();
 
         foreach ($gp as $parameterName => $parameterValue) {
+            if ($parameterName === 'sword') {
+                $parameterValue = str_replace('/', '+', $parameterValue);
+            }
             $forwardableParameters[$parameterName] = $parameterValue;
         }
 
